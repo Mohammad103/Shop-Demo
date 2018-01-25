@@ -16,6 +16,8 @@
 		84793E05201A29E1009F490B /* ProgressUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84793E03201A29E1009F490B /* ProgressUtility.swift */; };
 		84793E06201A29E1009F490B /* DimUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84793E04201A29E1009F490B /* DimUtility.swift */; };
 		84793E09201A2A96009F490B /* ItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84793E08201A2A96009F490B /* ItemsViewModel.swift */; };
+		84793E0B201A2CA8009F490B /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84793E0A201A2CA8009F490B /* ItemCell.swift */; };
+		84793E0D201A2D1A009F490B /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84793E0C201A2D1A009F490B /* ItemsTableViewController.swift */; };
 		BD7684904602C437A439AE03 /* Pods_Test_Shop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF36282C97151B23F13028B /* Pods_Test_Shop.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		84793E03201A29E1009F490B /* ProgressUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressUtility.swift; sourceTree = "<group>"; };
 		84793E04201A29E1009F490B /* DimUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimUtility.swift; sourceTree = "<group>"; };
 		84793E08201A2A96009F490B /* ItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewModel.swift; sourceTree = "<group>"; };
+		84793E0A201A2CA8009F490B /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		84793E0C201A2D1A009F490B /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 		F12163708545D80C4B2C83E6 /* Pods-Test Shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Shop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test Shop/Pods-Test Shop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +107,8 @@
 		84793DF8201A280C009F490B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				84793E0C201A2D1A009F490B /* ItemsTableViewController.swift */,
+				84793E0A201A2CA8009F490B /* ItemCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -291,8 +297,10 @@
 			files = (
 				84793DFE201A2889009F490B /* Item.swift in Sources */,
 				84793E05201A29E1009F490B /* ProgressUtility.swift in Sources */,
+				84793E0D201A2D1A009F490B /* ItemsTableViewController.swift in Sources */,
 				8408C237201A26CB0061C534 /* AppDelegate.swift in Sources */,
 				84793E01201A29BB009F490B /* NetworkAPI.swift in Sources */,
+				84793E0B201A2CA8009F490B /* ItemCell.swift in Sources */,
 				84793E06201A29E1009F490B /* DimUtility.swift in Sources */,
 				84793E09201A2A96009F490B /* ItemsViewModel.swift in Sources */,
 			);
