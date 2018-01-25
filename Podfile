@@ -9,7 +9,6 @@ pod 'Alamofire', '4.0.1'
 pod 'SwiftyJSON', '3.1.0'
 pod 'SDWebImage', '~>3.7'
 pod 'SVProgressHUD'
-pod 'SCLAlertView'
 pod 'NitroUIColorCategories'
 
 end

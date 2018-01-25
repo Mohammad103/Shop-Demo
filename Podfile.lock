@@ -5,7 +5,6 @@ PODS:
   - NitroUIColorCategories (1.1.1):
     - NitroMath (~> 1.1.0)
     - NitroNSDictionaryCategories (~> 1.1.0)
-  - SCLAlertView (0.7.0)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -15,7 +14,6 @@ PODS:
 DEPENDENCIES:
   - Alamofire (= 4.0.1)
   - NitroUIColorCategories
-  - SCLAlertView
   - SDWebImage (~> 3.7)
   - SVProgressHUD
   - SwiftyJSON (= 3.1.0)
@@ -25,11 +23,10 @@ SPEC CHECKSUMS:
   NitroMath: 9402e21acb9687ce46cb48ceb9a5fa86d40aaee2
   NitroNSDictionaryCategories: 8d86cbfbcb7b6b2d69071314330ac11283137ae9
   NitroUIColorCategories: f6d844ac23380050f1d402c518681da8da959191
-  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
   SwiftyJSON: 29b9f2a64f118c07e691667c2ba1efe536acfe0b
 
-PODFILE CHECKSUM: 8ba92b6d57b0a6ca4c0f763251ec9f7ec7f672fa
+PODFILE CHECKSUM: a87be0787539fb16f6562b83f59fd00368537383
 
 COCOAPODS: 1.3.1
