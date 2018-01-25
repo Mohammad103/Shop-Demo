@@ -20,18 +20,15 @@ class Item: NSObject {
     var media: String! = ""
     
     
-    class func parse(json: JSON) -> Item
+    func fillWithJSON(json: JSON)
     {
-        let item: Item = Item()
-        item.id = json["id"].string ?? ""
-        item.title = json["title"].string ?? ""
-        item.desc = json["description"].string ?? ""
-        item.locality = json["locality"].string ?? ""
-        item.price = json["price"].double ?? 0.0
-        item.currency = json["currency"].string ?? ""
-        item.media = json["media"].string ?? ""
-        
-        return item
+        self.id = json["id"].string ?? ""
+        self.title = json["title"].string ?? ""
+        self.desc = json["description"].string ?? ""
+        self.locality = json["locality"].string ?? ""
+        self.price = json["price"].double ?? 0.0
+        self.currency = json["currency"].string ?? ""
+        self.media = json["media"].string ?? ""
     }
     
     
@@ -44,7 +41,9 @@ class Item: NSObject {
             var items: [Item] = []
             for dict in responseArray {
                 let swiftyJson = JSON(dict)
-                items.append(Item.parse(json: swiftyJson))
+                let itemObj = Item()
+                itemObj.fillWithJSON(json: swiftyJson)
+                items.append(itemObj)
             }
             successBlock(items)
         }) { (error) in
